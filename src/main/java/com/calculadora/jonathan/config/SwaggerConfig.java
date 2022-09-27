@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @ComponentScan(basePackageClasses = { CalculadoraAritmeticaController.class })
 public class SwaggerConfig {
-	private final static String BASE_PACKAGE = "com.github.sanchezih.calculadora.controller";
+	private final static String BASE_PACKAGE = "com.calculadora.jonathan.controller";
 
 	@Bean
 	public Docket api() {
